@@ -18,7 +18,7 @@ public class ATMOperations {
 
     public static ATMOperations getInstance() {
         if (instance == null) {
-            return new ATMOperations();
+            instance = new ATMOperations();
         }
 
         return instance;
